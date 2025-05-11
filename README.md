@@ -1,29 +1,34 @@
 # Calculadora Java Swing
 
 Projeto simples de **calculadora desktop** em Java, construída com **Java Swing**.  
-Permite operações básicas:  
-- Adição  
-- Subtração  
-- Multiplicação  
-- Divisão  
+Permite operações básicas:
 
-Com validações de entrada e tratamento de erros:  
-- Impede divisão por zero  
-- Evita múltiplas vírgulas ou entradas inválidas  
-- Informa “Não é possível dividir por zero” em caso de tentativa de divisão por zero  
+- Adição
+- Subtração
+- Multiplicação
+- Divisão
+
+Com validações de entrada e tratamento de erros:
+
+- Impede divisão por zero
+- Evita múltiplas vírgulas ou entradas inválidas
+- Informa “Não é possível dividir por zero” em caso de tentativa de divisão por zero
 
 ---
 
 ## Estrutura do Projeto
 
 ```
-calculadora/  
-├── build/                ← classes compiladas (via Ant)  
-├── src/                  ← código‐fonte Java  
-│   └── calculadora/  
-│       └── principal.java  
-├── build.xml             ← script Ant (compilação, limpeza, execução)  
-└── README.md             ← este arquivo  
+calculadora/
+├── build/                ← classes compiladas (via Ant)
+├── screenshots/
+|   └── screenshot.png/
+|   └── screenshotErro.png/
+├── src/                  ← código‐fonte Java
+│   └── calculadora/
+│       └── principal.java
+├── build.xml             ← script Ant (compilação, limpeza, execução)
+└── README.md             ← este arquivo
 ```
 
 ---
@@ -35,8 +40,8 @@ calculadora/
 
 ## Pré-requisitos
 
-- Java JDK 8 ou superior  
-- Apache Ant (opcional, para usar o `build.xml`)  
+- Java JDK 8 ou superior
+- Apache Ant (opcional, para usar o `build.xml`)
 - [Opcional] IDE (NetBeans, VS Code com Java Extension Pack, Eclipse…)
 
 ---
@@ -45,7 +50,7 @@ calculadora/
 
 ### Usando Ant
 
-1. Abra um terminal na pasta do projeto.  
+1. Abra um terminal na pasta do projeto.
 2. Para compilar:
    ```bash
    ant compile
@@ -70,28 +75,28 @@ calculadora/
 
 ## Uso
 
-1. **Clear:** limpa o display e reseta operações.  
-2. **Botões 0–9 e “,”:** montam o número a ser calculado.  
-3. **Operadores (+, –, ×, /):** iniciam ou encadeiam operações.  
-4. **“=”**: finaliza o cálculo e exibe o resultado.  
+1. **Clear:** limpa o display e reseta operações.
+2. **Botões 0–9 e “,”:** montam o número a ser calculado.
+3. **Operadores (+, –, ×, /):** iniciam ou encadeiam operações.
+4. **“=”**: finaliza o cálculo e exibe o resultado.
 
 ---
 
 ## Validações
 
-- **Campo vazio:** não permite iniciar operação sem número.  
-- **Vírgula duplicada:** impede inserir “,,”.  
-- **Divisão por zero:** exibe mensagem de erro no display.  
+- **Campo vazio:** não permite iniciar operação sem número.
+- **Vírgula duplicada:** impede inserir “,,”.
+- **Divisão por zero:** exibe mensagem de erro no display.
 
 ---
 
 ## Observações
 
-- O projeto foi desenvolvido como exercício da disciplina Técnicas de Programação 1.  
+- O projeto foi desenvolvido como exercício da disciplina Técnicas de Programação 1.
 - Futura melhoria: uso de `BigDecimal` para maior precisão e encadeamento de operações sem precisar de “=” a cada passo.
 
 ---
 
 ## Contato
 
-Para dúvidas ou sugestões, abra uma _issue_ ou envie um e-mail para seu.willsf2015@hotmail.com.  
+Para dúvidas ou sugestões, abra uma _issue_ ou envie um e-mail para seu.willsf2015@hotmail.com.
