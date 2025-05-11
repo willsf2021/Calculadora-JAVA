@@ -28,6 +28,11 @@ calculadora/
 
 ---
 
+## Screenshots do Projeto
+
+<img src="./screenshots/screenshotErro.png"/>
+<img src="./screenshots/screenshot.png"/>
+
 ## Pré-requisitos
 
 - Java JDK 8 ou superior  
